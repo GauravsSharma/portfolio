@@ -3,8 +3,8 @@ const app = express();
 const user = require("./routes/user");
 const cookieParser = require('cookie-parser');
 const cors = require("cors");
-const project = require("./routes/Project");
-const skill = require("./routes/Skill");
+const project = require("./routes/project");
+const skill = require("./routes/skill");
 require('dotenv').config({ path: './config/config.env' });
 
 app.use(cors());
